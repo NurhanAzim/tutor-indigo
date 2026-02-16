@@ -32,29 +32,28 @@ const IndigoFooter = () => {
       <footer id="footer" className="tutor-container">
         <div className="footer-top">
           <div className="powered-area">
+            <style>
+              {`
+                body {
+                  background-image: url('${config.LMS_BASE_URL}/static/indigo/images/wallpaper.png') !important;
+                  background-size: cover !important;
+                  background-position: center !important;
+                  background-attachment: fixed !important;
+                }
+              `}
+            </style>
             <ul className="logo-list">
               <li>{intl.formatMessage(messages["footer.poweredby.text"])}</li>
               <li>
                 <a
-                  href="https://edly.io/tutor/"
+                  href="https://fhsb.com.my"
                   rel="noreferrer"
                   target="_blank"
                 >
                   <img
-                    src={`${config.LMS_BASE_URL}/theming/asset/images/tutor-logo.png`}
-                    alt={intl.formatMessage(
-                      messages["footer.tutorlogo.altText"]
-                    )}
-                    width="57"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://open.edx.org" rel="noreferrer" target="_blank">
-                  <img
-                    src={`${config.LMS_BASE_URL}/theming/asset/images/openedx-logo.png`}
-                    alt={intl.formatMessage(messages["footer.logo.altText"])}
-                    width="79"
+                    src={`${config.LMS_BASE_URL}/static/indigo/images/logo.png`}
+                    alt="FHSB"
+                    width="80"
                   />
                 </a>
               </li>
