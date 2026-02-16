@@ -13,6 +13,10 @@ html {
 body, body.view-profile {
   min-height: initial;
   background-color: #fff;
+  background-image: url('../images/wallpaper.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
