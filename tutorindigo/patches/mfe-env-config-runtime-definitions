@@ -17,7 +17,7 @@ const IndigoFooter = () => {
     },
     "footer.logo.altText": {
       id: "footer.logo.altText",
-      defaultMessage: "Powered by Open edX",
+      defaultMessage: "Powered by FHSB Classroom",
       description: "alt text for the footer logo.",
     },
     "footer.copyright.text": {
@@ -43,7 +43,7 @@ const IndigoFooter = () => {
                   <img
                     src={`${config.LMS_BASE_URL}/static/indigo/images/logo.png`}
                     alt="FHSB"
-                    width="80"
+                    height="35"
                   />
                 </a>
               </li>
@@ -184,7 +184,7 @@ const MobileViewHeader = () => {
   const messages = {
     "mobile.view.header.logo.altText": {
       id: "mobile.view.header.logo.altText",
-      defaultMessage: "My Open edX",
+      defaultMessage: "My FHSB Classroom",
       description: "Mobile view header logo altText",
     },
   };
@@ -244,9 +244,9 @@ const ThemedLogo = () => {
           }
         `}
       </style>
-      <a href={`${BASE_URL}/dashboard`} title="Open edX" className="logo">
-        <img className="logo-image" src={`${BASE_URL}/static/indigo/images/logo.png`} alt="Open edX" />
-        <img className="logo-image logo-white" src={`${BASE_URL}/static/indigo/images/logo-white.png`} alt="Open edX" />
+      <a href={`${BASE_URL}/dashboard`} title="FHSB Classroom" className="logo">
+        <img className="logo-image" src={`${BASE_URL}/static/indigo/images/logo.png`} alt="FHSB Classroom" />
+        <img className="logo-image logo-white" src={`${BASE_URL}/static/indigo/images/logo-white.png`} alt="FHSB Classroom" />
       </a>
     </>
   );
